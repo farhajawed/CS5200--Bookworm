@@ -1,0 +1,101 @@
+#pp{
+	border:3px solid gray;
+	width:290px;
+    height:260px;
+}
+
+#usernameCss{
+	margin-left:80px;
+}
+
+a:visited#link {
+    color:black;
+}
+
+a:active#link {
+    color:black;
+}
+
+a#link {
+    color:black;
+}
+
+.bg{
+	background-color : #efeff5;
+}
+
+.text{
+	margin-left:10px;
+}
+#form1 {
+    display : none;
+}
+#btn {
+    margin-bottom: 10px;
+}
+
+.form {
+    margin:0;
+}
+
+.form li {
+    list-style:none;
+}
+
+.hide {
+    display:none;
+}
+
+.txt-center {
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
+
+.rating {
+    width: 90px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+}
+
+.rating > label {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+    color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+
+.checked {
+    color: orange;
+}
+th, td {
+    padding: 10px;
+}
